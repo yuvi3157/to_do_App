@@ -24,7 +24,7 @@ function Handle(){
 
   return (
     <div className="outer">
-      <p>Task To Be DOne</p>
+      <p>Todays goal To Be DOne</p>
       <input style={{height:'30px' ,width:'300px'}} type="text" placeholder="Enter task to be done" value={inputValue} onChange={trackChange} />
       <button style={{background:"green",height:'30px' ,width:'50px'}}  onClick={addItem}> Add</button>
       <br /> <br />
